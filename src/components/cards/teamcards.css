@@ -1,0 +1,36 @@
+.team_container{
+    position: relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.team_img{
+    position: relative;
+    right:25rem;
+    top: 2.5rem;
+    height: 2vh;
+    background-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    /* background-color: aquamarine; */
+}
+
+.team_info{
+    /* background-color: blue; */
+    position: relative;
+    top: -53rem;
+    left: 6.2rem;
+    width: 20%;
+    text-align: center;
+
+}
+
+.team_info .team_name{
+    font-size: 1.3rem;
+}
+.team_desc{
+    position: relative;
+    font-size: 1.2rem;
+    top: 0.8rem;
+}

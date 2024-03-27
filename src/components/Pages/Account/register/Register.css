@@ -1,0 +1,211 @@
+.register-head-link{
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .register_link{
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .head-links{
+    position: relative;
+    top: 2rem;
+  }
+
+  .Account_img_container {
+    position: absolute;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    bottom: 9rem;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    gap: 0;
+    background-color: rgb(0, 0, 0);
+  }
+  .register-form-container {
+    position: relative;
+    top: 12rem;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .register-h2 {
+    position: relative;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    top: 3rem;
+  }
+  
+ .register-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    width: 50%;
+    height: 55vh;
+    left: 18rem;
+    top: 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  } */
+  
+  .register-input {
+    position: relative;
+    top: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+
+  }
+  
+ .register-btn {
+    position: relative;
+  padding: 0.8rem 1rem;
+  background-color: #212121;
+  color: white;
+  text-align: left;
+  right: 17.8rem;
+  top: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  }
+
+  .register-btn:hover{
+    background-color: #a7a7a7;
+  }
+  
+  .home_reg {
+    position: relative;
+    top: 8rem;
+    width: 100%;
+    color: white;
+    height: 55vh;
+    /* top: 2rem; */
+    position: relative;
+    /* z-index: -1; */
+    background-color: black;
+  }
+  
+  .home_reg_txt {
+    position: relative;
+    top: 4.5rem;
+    text-align: center;
+    font-size: 17px;
+    justify-content: space-between;
+  }
+  
+  .home_reg_h1 {
+    position: relative;
+    bottom: 1rem;
+  }
+  
+  .social_links {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+  
+  }
+  
+  .social-icons {
+    display: flex;
+    position: relative;
+    top: 3rem;
+    color: white;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  
+  
+  .fa-brands{
+    color: white;
+  }
+  .fa-brands:hover{
+    opacity: 0.9;
+    /* color: blue; */
+  }
+
+  .reg-footer{
+    position: relative;
+    top: 5rem;
+  }
+
+  /* Styles for mobile devices */
+@media only screen and (max-width: 900px) {
+  .Account_img_container {
+    bottom: auto;
+    top: 0;
+  }
+  
+  .register-form-container {
+    top: 4rem;
+    height: auto;
+    padding: 0 1rem;
+    /* color: white; */
+  }
+
+  .register-h2 {
+    position: relative;
+    /* margin-bottom: 1rem; */
+    color: white;
+    left: 6rem;
+    /* right: 2rem; */
+    /* text-align: center; */
+    /* bottom: 5rem; */
+  }
+  
+  .register-form {
+    width: 77%;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+  
+  .register-btn {
+    right: 0;
+  }
+  
+  .home_reg {
+    top: 6rem;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  .home_reg_h1 {
+    font-size: 1.5rem;
+  }
+  
+  .social-icons {
+    top: 1rem;
+  }
+  
+  .reg-footer{
+    top: 3rem;
+  }
+}

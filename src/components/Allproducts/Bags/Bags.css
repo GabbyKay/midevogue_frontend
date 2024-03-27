@@ -1,0 +1,59 @@
+/* BagsPage.css */
+.bag-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bag-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .bag-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .bag-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .bag-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .bag-item h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .bag-item p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bag-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bag-item button:hover {
+    background-color: #0056b3;
+  }
+  

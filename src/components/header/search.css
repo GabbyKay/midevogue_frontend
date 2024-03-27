@@ -1,0 +1,153 @@
+*{
+    /* overflow-x: hidden; */
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(31, 128, 214); */
+
+}
+
+.search_bar{
+
+    display: flex;
+    position: relative;
+    font-size: 10px;
+    background-color: rgb(245, 245, 245);
+    height: 20vh;     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.search_bar .logo{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;
+}
+
+.input_search{
+    position: relative;
+    text-align: center;
+    left: 9rem;
+}
+
+
+.search_bar input{
+    height: 1.8rem;
+    position: relative;
+    left: 7rem;
+    width: 50rem;
+    top: 1.5rem;
+    border-radius: 3rem;
+    border-width: 1px;
+}
+
+.search_bar ::placeholder{
+    font-size: 12px;
+    position: relative;
+    left: 3rem;
+    text-align: start;
+}
+
+.dd_boxmenu2{
+    position: relative;
+    top: 1.9rem;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 13px;
+    color: rgb(109, 109, 109);
+   
+
+    left: 0.2rem;
+}
+
+
+.dd_boxmenu2 .fa-solid{
+    text-decoration-line: none;
+    font-size: 11px;
+    position: relative;
+    right: 1.5rem;
+    display: inline-block;
+    top: 4px;
+    border: none;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+
+.dd_boxmenu2 .dropdown-content{
+    font-size: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 4rem;
+    text-decoration: none;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ffffff}
+  
+  .dd_boxmenu2:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dd_boxmenu2:hover .dropdown-content {
+    background-color: #f1f1f1;
+  }
+
+.icon{
+    font-size: 1rem;
+    position: relative;
+    top: 1.87rem;
+    right: 42rem;
+    color: rgb(174, 174, 174);
+}
+
+.cart_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.s-profile_icon{
+    position: relative;
+    background-color: rgb(210, 210, 210);
+    font-size: 11px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    left: 6rem;
+    top: 1.3rem;
+
+}
+
+.s-profile_icon .fa-solid{
+    position: relative;
+    left: 13px;
+    top: 9px;
+}
+
+.s-cart_icon{
+    position: relative;
+    background-color: rgb(210, 210, 210);
+    font-size: 11px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    left: 8rem;
+    top: 1.25rem;
+}
+
+
+.s-cart_icon .fa-solid{
+    position: relative;
+    left: 11px;
+    top: 10px; 
+
+}

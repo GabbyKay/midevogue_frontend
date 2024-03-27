@@ -1,0 +1,23 @@
+/* FAQPage.css */
+
+.faq_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq_h1 {
+    text-align: center;
+  }
+  
+  .faq_h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+ .faq_p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  

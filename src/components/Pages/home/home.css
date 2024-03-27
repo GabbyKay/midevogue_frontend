@@ -1,0 +1,121 @@
+#root{
+    overflow-x: hidden;
+}
+
+.home_img {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    bottom: 2.7rem;
+    text-align: center;
+}
+
+.order_now {
+    font-size: 25px;
+    position: relative;
+    left: 10rem;
+    bottom: 3rem;
+    background-color: white;
+    color: #000000;
+    border-radius: 6px;
+    padding: 4px;
+
+}
+
+.discount {
+    position: relative;
+    left: 10rem;
+}
+
+#hero_img {
+    width: 30%;
+    height: 45vh;
+    text-align: center;
+    position: relative;
+    left: 5rem;
+    top: 4rem;
+
+}
+
+.bg_img_desc {
+    position: relative;
+    color: white;
+    width: 40%;
+    text-align: start;
+    bottom: 8rem;
+    left: 9rem;
+}
+
+.formen {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(234, 234, 234);
+}
+
+/* about section in home */
+.home_about {
+    width: 100%;
+    color: white;
+    height: 55vh;
+    background-color: black;
+}
+
+.home_about_txt {
+    position: relative;
+    top: 6rem;
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.home_about_h1 {
+    position: relative;
+    bottom: 1rem;
+}
+
+.social_links {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+
+}
+
+.social-icons {
+    display: flex;
+    position: relative;
+    top: 3rem;
+    color: white;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.fa-brands{
+    color: white;
+}
+.fa-brands:hover{
+    opacity: 0.9;
+    /* color: blue; */
+}
+
+@media (max-width: 900px) {
+  .order_now {
+    font-size: 20px;
+    left: 0;
+    background-color: blueviolet;
+  }
+  
+  #hero_img {
+    width: 50%;
+    left: 25%;
+  }
+  
+  .bg_img_desc {
+    width: 70%;
+    left: 15%;
+  }
+}

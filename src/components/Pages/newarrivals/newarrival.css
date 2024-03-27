@@ -1,0 +1,87 @@
+/* #root{
+    text-align: center;
+} */
+
+.NewArrivals{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    height: 100vh;  
+}
+
+.head_txt{
+    position: relative;
+    top: 4rem;
+    text-align: center;
+
+}
+
+.head_blank{
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    height: 90vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2250);
+    background-color: black;
+}
+
+.blank_card{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .head--text2{
+    position: relative;
+    top: 1.5rem;
+    color: white;
+    font-size: 24px;
+
+} */
+
+.head_txt span{
+position: relative;
+bottom: 3.2rem;
+}
+
+  h1 {
+    margin: 1rem auto 4rem;
+  }
+  
+  .product_image {
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2225);
+    max-width: 210px;
+    margin: auto 1rem;
+    margin-left: 1.6rem;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    bottom: 0.5rem;
+    position: relative;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
