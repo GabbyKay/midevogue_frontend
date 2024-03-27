@@ -1,0 +1,391 @@
+.about_head {
+    position: relative;
+    /* position: fixed; */
+}
+
+.about_header {
+    text-align: center;
+    color: white;
+
+}
+
+.h_headertxt {
+    color: white;
+}
+
+.p_header {
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    font-size: 14.5PX;
+    color: white;
+}
+
+.links {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.about_container {
+    width: 100%;
+    /* height: 15vh; */
+    /* background-color: blue; */
+
+}
+
+.about_img_container {
+    position: absolute;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    bottom: 9rem;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    gap: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.img1 {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+/* welcome to Midevogue sec section */
+
+.about_text_container {
+    position: relative;
+    top: 6rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.left {
+    position: relative;
+    top: 4rem;
+    width: 40%;
+    color: white;
+}
+
+.left_img1 {
+    position: absolute;
+    ;
+    width: 90%;
+    height: 84vh;
+    left: 6rem;
+}
+
+.left_img2 {
+    position: relative;
+    top: 3rem;
+    width: 90%;
+    height: 84vh;
+    left: 8rem;
+    object-fit: cover;
+}
+
+.right {
+    color: white;
+    position: relative;
+    width: 35%;
+    text-align: justify;
+    justify-content: center;
+    left: 11rem;
+    top: 3rem;
+}
+
+.right p {
+    position: relative;
+    bottom: 3rem;
+}
+
+.list {
+    position: relative;
+    bottom: 2rem;
+}
+
+.read_more {
+    position: relative;
+    /* left: 51rem; */
+    /* top: 4rem; */
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px;
+}
+
+/* blank for ads  */
+/* .blank1{
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background-color: transparent;
+} */
+
+/* section 2  */
+
+.about_sec2 {
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.about_sec2 h1 {
+    /* text-align: center; */
+    position: relative;
+    top: 5rem;
+}
+
+.about_sec2_txt {
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 4rem;
+    bottom: 2rem;
+}
+
+.about_sec2_header {
+    text-align: center;
+}
+
+.sec2_left {
+    text-align: justify;
+    width: 40%;
+}
+
+.sec2_right {
+    text-align: justify;
+    width: 40%;
+}
+
+.about_h1 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.about_p {
+    font-size: 16px;
+}
+
+/* div about section 3 */
+
+.about_sec3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    gap: 4rem;
+}
+
+.sec3_left{
+    color: white;
+    position: relative;
+    width: 30%;
+    text-align: justify;
+    top: 3rem;
+}
+
+.sec3_h_txt{
+    text-align: justify;
+    /* width: 30%; */
+}
+
+.sec3_p_txt{
+    position: relative;
+    bottom: 2rem;
+    /* width: 85%; */
+}
+
+.sec3_img{
+    object-fit: cover;
+    position: relative;
+    top: 2.5rem;
+    height: 50vh;
+}
+
+.sec3_right{
+    color: white;
+    position: relative;
+    top: 7rem;
+}
+
+/* join us section  */
+
+.join_us_full_container{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.join_us_container{
+    position: relative;
+    width: 80%;
+    height: 35vh;
+    border: solid 3px;
+    border-color: black;
+    top: 3.7rem;
+    left: 7.5rem;
+}
+
+.join_us_h_text{
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    font-size: 35px;
+}
+
+.join_us_p_text{
+    position: relative;
+    left: 3rem;
+    width: 75%;
+    left: 3rem;
+}
+
+.learn_more{
+    float: right;
+    position: relative;
+    bottom: 5rem;
+    right: 2rem;
+    padding: 12px;
+    color: white;
+    background-color: black;
+}
+
+/* team section  */
+
+.team_sec{
+    position: relative;
+    bottom: 1rem;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.our_team_header_text{
+    position: relative;
+    text-align: center;
+    top: 4rem;
+}
+
+.our_team_p_text{
+    position: relative;
+    bottom: 4rem;
+}
+
+.team_container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+
+    object-fit: cover;
+}
+
+.team_container img{
+    position: relative;
+    width: 20%;
+    top: 3rem;
+    height: 49vh;
+    object-fit: cover;
+}
+
+.team_names{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* text-align: justify; */
+    justify-content: center;
+    gap: 9.5rem;
+    color: rgb(227, 227, 227);
+    right: 0rem;
+    left: 0rem;
+    top: 4rem;
+}
+
+.team_spec{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    /* text-align: justify; */
+    justify-content: center;
+    gap: 15rem;
+    color: rgb(227, 227, 227);
+    top: 4rem;
+}
+
+/* footer section  */
+
+.home_about {
+    position: relative;
+    bottom: 1rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 55vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.home_about_txt {
+    position: relative;
+    top: 6rem;
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.home_about_h1 {
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+.home_about_p{
+    text-align: center;
+}
+
+.social_links {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+
+}
+
+.social-icons {
+    display: flex;
+    position: relative;
+    top: 3rem;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.fa-brands{
+    color: rgb(0, 0, 0);
+}
+.fa-brands:hover{
+    opacity: 0.9;
+    /* color: blue; */
+}

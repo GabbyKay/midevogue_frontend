@@ -1,0 +1,32 @@
+
+.faq_link, .Needhelp_link{
+  color: white;
+  text-decoration: none;
+}
+.head {
+
+    background-color: rgb(0, 0, 0);
+    padding: 10px 1;
+    /* top: 1rem; */
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  .head .left_row{
+    position: relative;
+    margin-left: 3rem;
+    top: 0.6rem;
+  }
+  .head .right_row_RText{
+    position: relative;
+    left: 55rem;
+    bottom: 0.7rem;
+
+  }
+  .head i {
+    margin-right: 10px;
+  }
+  .head label {
+    margin-right: 30px;
+    font-size: 13px;
+  }
